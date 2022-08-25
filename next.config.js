@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  images: {
+    domains: ["ipfs.io", "mdbcdn.b-cdn.net"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
