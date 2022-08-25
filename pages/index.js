@@ -16,7 +16,7 @@ export default function Home() {
   const { loading, error, data: mintedNfts } = useQuery(GET_MINTED_NFTS);
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto ">
       <Carousel />
       {/* <ImageSection /> */}
       <h1 className="py-4 px-4 font-bold text-2xl pl-20 ">Recently Minted</h1>

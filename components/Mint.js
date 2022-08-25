@@ -29,7 +29,7 @@ export default function Mint() {
       type: "success",
       message: "successful transaction",
       title: "NFT minted - check your wallet",
-      position: "topR",
+      position: "bottomR",
     });
   };
 

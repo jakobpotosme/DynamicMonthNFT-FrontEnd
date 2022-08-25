@@ -5,9 +5,9 @@ import Footer from "../components/Footer";
 function About() {
   return (
     <>
-      <div className="flex items-center justify-center pt-20  ">
-        <div className="text-center max-w-lg bg-slate-200 rounded-lg  ">
-          <h1 className="text-4xl font-bold p-5  w-full rounded-t-lg ">
+      <div className="flex items-center justify-center pt-20  min-h-full ">
+        <div className="text-center max-w-lg bg-[#F6F8FC] shadow-md rounded-lg border ">
+          <h1 className="text-3xl font-bold p-5  w-full rounded-t-lg ">
             About
           </h1>
           <p className="p-4">
