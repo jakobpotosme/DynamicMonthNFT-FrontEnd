@@ -57,12 +57,16 @@ export default function Mint() {
 
   return (
     <div>
-      <Button
-        theme="primary"
-        text="Mint"
-        onClick={mintNft}
-        disabled={disabled}
-      ></Button>
+      {nftContractAddress !== "0x000" ? (
+        <Button
+          theme="primary"
+          text="Mint"
+          onClick={mintNft}
+          disabled={disabled}
+        ></Button>
+      ) : (
+        <div className="mr-4 p-6 font-bold">Switch to Rinkeby Network</div>
+      )}
     </div>
   );
 }
