@@ -11,7 +11,7 @@ import Footer from "../components/Footer";
 
 const client = new ApolloClient({
   cache: new InMemoryCache(),
-  uri: "https://api.studio.thegraph.com/query/32380/dynamic-month-nfts/v0.0.2",
+  uri: "https://api.studio.thegraph.com/query/32380/dynamic-month-nfts/v0.0.3",
 });
 
 function MyApp({ Component, pageProps }) {

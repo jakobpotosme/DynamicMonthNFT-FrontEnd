@@ -29,7 +29,7 @@ function FAQ() {
         <p className="max-w-3xl pt-2">
           Below is the Rinkeby Etherscan link where you can interact with the
           contract related to this project directly{" "}
-          <Link href="https://rinkeby.etherscan.io/address/0xc9cb8bd6bbce97db0402a96cb54e81456dd641e8">
+          <Link href="https://rinkeby.etherscan.io/address/0xF8A28ad22E5aEaea33E321c83084F0B3E4E655Ef">
             <p className="hover:text-green-400 w-20">Click here.</p>
           </Link>
         </p>

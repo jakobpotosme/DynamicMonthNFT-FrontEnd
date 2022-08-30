@@ -1,1 +1,11 @@
-{"1":{"DynamicNft":["0x000"]},"4":{"DynamicNft":["0xc9cB8bD6bBCe97db0402A96CB54E81456DD641e8"]},"31337":{"DynamicNft":["0x5FbDB2315678afecb367f032d93F642f64180aa3"]}}
+{
+    "1": {
+        "DynamicNft": ["0x000"]
+    },
+    "4": {
+        "DynamicNft": ["0xF8A28ad22E5aEaea33E321c83084F0B3E4E655Ef"]
+    },
+    "31337": {
+        "DynamicNft": ["0x5FbDB2315678afecb367f032d93F642f64180aa3"]
+    }
+}
