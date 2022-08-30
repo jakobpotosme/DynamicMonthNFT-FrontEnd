@@ -3,7 +3,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { useWeb3Contract, useMoralis, useEnsAddress } from "react-moralis";
 
-import nftAbi from "../constants/DynamicNft.json";
+import nftAbi from "../../constants/DynamicNft.json";
 import Image from "next/image";
 import { Card, useNotification } from "web3uikit";
 import { ethers } from "ethers";
@@ -69,7 +69,26 @@ export default function NftBox({ minter, nftAddress, tokenId, month }) {
     <div className="p-2">
       {imageURI ? (
         <div>
-          <Card title={tokenName} description={tokenDescription}>
+          <div title={tokenName} description={tokenDescription}>
+            <div className="p-2 flex flex-col  text-center items-center gap-2 ">
+              <Image
+                loader={() => imageURI}
+                src={imageURI}
+                height="200"
+                width="200"
+                alt="nft_image"
+                className="rounded-lg"
+              ></Image>
+              <div>
+                <p className="italic text-sm">
+                  Owned by {formattedSellerAddress}
+                </p>
+                <p className=" text-sm">{tokenName}</p>
+                {/* <p className=" text-sm">{tokenDescription}</p> */}
+              </div>
+            </div>
+          </div>
+          {/* <Card title={tokenName} description={tokenDescription}>
             <div className="p-2 flex flex-col items-center gap-2 ">
               <Image
                 loader={() => imageURI}
@@ -85,7 +104,7 @@ export default function NftBox({ minter, nftAddress, tokenId, month }) {
                 </p>
               </div>
             </div>
-          </Card>
+          </Card> */}
         </div>
       ) : (
         <div> Loading... </div>

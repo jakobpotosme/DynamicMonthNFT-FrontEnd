@@ -18,7 +18,7 @@ export default function Mint() {
 
   let value = utils.parseUnits("0.01", "18");
 
-  const provider = new ethers.providers.Web3Provider(ethereum);
+  const provider = new ethers.providers.Web3Provider(web3.currentProvider);
   const signer = provider.getSigner(account);
   const contract_rw = new ethers.Contract(nftContractAddress, nftAbi, signer);
 
