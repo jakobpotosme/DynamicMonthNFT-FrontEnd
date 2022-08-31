@@ -135,7 +135,7 @@ function NewMint({}) {
             </button>
           </>
         ) : (
-          <div className="mr-4 p-6 font-bold">Switch to Rinkeby Network</div>
+          <div className="mr-4 p-6 font-bold">Switch to Goerli Network</div>
         )}
       </div>
     </div>

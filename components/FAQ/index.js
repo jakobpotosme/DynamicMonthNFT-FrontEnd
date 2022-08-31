@@ -23,13 +23,13 @@ function FAQ() {
         </p>
       </div>
       <div name="tech3 ">
-        <h1 className="font-semibold">
+        <h1 className="font-semibold -ml-10">
           Where can I review the smart contract?
         </h1>
-        <p className="max-w-3xl pt-2">
-          Below is the Rinkeby Etherscan link where you can interact with the
+        <p className="max-w-3xl pt-2 -ml-10">
+          Below is the Goerli Etherscan link where you can interact with the
           contract related to this project directly{" "}
-          <Link href="https://rinkeby.etherscan.io/address/0xF8A28ad22E5aEaea33E321c83084F0B3E4E655Ef">
+          <Link href="https://goerli.etherscan.io/address/0x4b4364f01f136fbd5d2e445e37cf9b839644d15f">
             <p className="hover:text-green-400 w-20">Click here.</p>
           </Link>
         </p>
@@ -42,7 +42,7 @@ function FAQ() {
           The data is being queried from a subgraph I created on the Graph
           protocol. It is listening for events that triggered by the contract
           and is acting accordingly. You can mess around with it yourself
-          <Link href="https://thegraph.com/studio/subgraph/dynamic-month-nfts/">
+          <Link href="https://thegraph.com/hosted-service/subgraph/jakobpotosme/dynamiccolorsnft">
             <p className="hover:text-green-400 w-10"> here.</p>
           </Link>
         </p>
